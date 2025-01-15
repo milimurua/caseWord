@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    border-style: none;
+    position: static;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.custom-center {
+    text-align: center;
+}
+
+#btn-iniciar{
+    margin-top: 10px;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    border-style: none;
+    position: static;
+}
+
+#carritoo {
+    width: 40px;
+    height: 40px;
+    margin: -10px;
+    align-items: center;
+}
+
+#user {
+    margin: -16px;
+    align-items: center;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.container{
+    z-index: 0;
+    place-content: center;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 0;
+    overflow: hidden;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    padding: 0;
+}
+
+.card img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    border-style: none;
+    position: static;
+}
+
+.mb-2 svg{
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    margin-right: 20px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+}
+
+.whatsapp-float img {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}

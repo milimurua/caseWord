@@ -1,0 +1,122 @@
+.header{
+    position: fixed;
+    width: 100%;
+    border-style: none;
+    position: static;
+}
+
+#carritoo {
+    width: 40px;
+    height: 40px;
+    margin: -10px;
+    align-items: center;
+}
+
+#user {
+    margin: -16px;
+    align-items: center;
+}
+
+#content {
+    margin-top: 0px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.payment-option {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 45px 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    max-width: 450px; /* Added max-width */
+    margin-bottom: 20px; /* Center horizontally */
+}
+
+.payment-option:hover, .payment-option.active {
+    border-color: #031d38;
+    background-color: #f8f9fa;
+}
+
+#mp-img {
+    max-width: 150px;
+}
+
+#card-mp{
+    margin: 0px;
+    border: 0px
+}
+.payment-form {
+    display: none;
+}
+
+.form-control-sm {
+    font-size: 0.875rem;
+    padding: 0.5rem;
+}
+
+.form-control-xs {
+    width: 100%;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: white;
+    z-index: 1000;
+    text-align: center;
+}
+
+#popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+#total{
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background-color: #171718;
+    color: #fff;
+    z-index: 1000;
+}
+
+.mb-2 svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    margin-right: 20px;
+}
+
+@media(max-width: 700px){
+    .payment-option {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 45px 50px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        margin-bottom: 20px; /* Center horizontally */
+    }
+}

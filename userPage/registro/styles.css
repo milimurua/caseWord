@@ -1,0 +1,235 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#carritoo {
+    width: 45px;
+    height: 45px;
+    margin: -10px;
+}
+
+#user {
+    margin: -16px;
+}
+
+#content {
+    margin-top: 0px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.container{
+    z-index: 0;
+    place-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 0;
+    overflow: hidden;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    border-style: none;
+    position: static;
+}
+
+.mb-2 svg{
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    margin-right: 20px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+}
+
+.whatsapp-float img {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    border-style: none;
+    position: static;
+}
+
+#encabezado {
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+#encabezado h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#encabezado nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#encabezado nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+#encabezado nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.Userform {
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(150deg, lightgray, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#validation {
+    background: linear-gradient(150deg, lightgray, white);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 500px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+form h5 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+
+input {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: lightslategray;
+}
+
+#img-funda {
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.logo {
+    background: #343a40;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    border-style: none;
+    position: static;
+    border: none;
+}
+
+.footer {
+    position: fixed;
+    border-style: none;
+    position: static;
+    width: 100%;
+}
+
+.mb-2 svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    margin-right: 20px;
+}
+
+small {
+    display: none;
+    color: red;
+    margin-top: -0.7em;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+.was-validated small {
+    display: block;
+    color: red;
+    margin-top: -0.7em;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+@media (max-width: 430px) {
+    body {
+        padding: 0;
+    }
+
+    .Userform {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    #validation {
+        width: 350px;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    #img-funda {
+        opacity: 0;
+        margin-top: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .navbar-brand img {
+        width: 70px;
+        display: 70px;
+    }
+}

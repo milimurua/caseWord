@@ -1,0 +1,356 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    border-style: none;
+    position: static;
+}
+
+#encabezado {
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+#encabezado h1 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#encabezado nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#encabezado nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+#encabezado nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#carritoo {
+    width: 40px;
+    height: 40px;
+    margin: -10px;
+    align-items: center;
+}
+
+#user {
+    margin: -16px;
+    align-items: center;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.container{
+    padding: 0px;
+    margin: 0px;
+    z-index: 0;
+    background: white;
+    place-content: center;
+    border: 0;
+    overflow: hidden;
+}
+
+.iframe {
+    height: 100%;
+    padding: 10px;
+}
+
+.banner {
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 300px;
+    background-image: url(funda_android.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 120px;
+    padding-top: 30px;
+    margin-right: -150px;
+    margin-left: -150px;
+}
+
+.location {
+    flex: 1;
+    max-width: 45%;
+    margin-bottom: 20px;
+}
+
+.location-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    padding-left: 55px;
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 45%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.newsletter {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.newsletter-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.newsletter-form {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; 
+}
+
+.newsletter-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.newsletter-form .terms {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.newsletter-form .terms input {
+    margin-right: 5px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #555;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    padding: 0;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    border-style: none;
+    position: static;
+}
+
+.mb-2 svg{
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    margin-right: 20px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+}
+
+.whatsapp-float img {
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .banner-title {
+        font-size: 36px;
+    }
+
+    .location-title {
+        padding-left: 0px;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .form-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .location,
+    .contact-form {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        height: 200px;
+    }
+
+    .banner-title {
+        font-size: 24px;
+    }
+
+    .main-title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+    }
+
+    .location-title {
+        padding-left: 0px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .newsletter-title {
+        font-size: 20px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .newsletter-form input {
+        font-size: 14px;
+    }
+}

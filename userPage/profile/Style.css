@@ -1,0 +1,85 @@
+
+.subencabezado{
+    background: #343a40;
+    color:white; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position:static;
+    display: flex;
+}
+
+#carritoo {
+    width: 40px;
+    height: 40px;
+    margin: -10px;
+    align-items: center;
+}
+
+#user {
+    margin: -16px;
+    align-items: center;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    border-style: none;
+    position: static;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+body{
+    background: #f7f7ff;
+    margin-top:20px;
+}
+
+.main-body{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%), 0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+
+.me-2 {
+    margin-right: .5rem!important;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    border-style: none;
+    position: static;
+}
+
+.mb-2 svg{
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    margin-right: 20px;
+}
+
+@media (max-width: 430px){
+    .navbar-brand img{
+        width: 70px;
+        display: 70px;
+    }
+}

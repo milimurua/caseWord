@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.escondido {
+    display: none;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    border-style: none;
+    position: static;
+}
+
+#carritoo {
+    width: 40px;
+    height: 40px;
+    margin: -10px;
+    align-items: center;
+}
+
+#user {
+    margin: -16px;
+    align-items: center;
+}
+
+#content {
+    margin-top: 0px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+#title{
+    padding-bottom: 20px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#contenidoCarrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.container.mt-5 {
+    margin-top: 2rem !important;
+}
+
+.card {
+    width: 100%;
+    border:#171718;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#totales button {
+    margin-top: 10px;
+    background-color: var(--color-acento);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.container {
+    background: white;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    background-color: #171718;
+    color: #fff;
+    z-index: 1000;
+}
+
+.mb-2 svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    margin-right: 20px;
+}
